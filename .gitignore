@@ -42,3 +42,7 @@ app.*.map.json
 
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Remove google key, depends on your module name.
+android/app/google-services.json
+android/app/src/release/res/values/google_maps_api.xml
