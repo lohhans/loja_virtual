@@ -34,10 +34,12 @@ android {
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.lohhans.loja_virtual"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        // Enabling multidex support.
+        multiDexEnabled true
     }
 
     buildTypes {
